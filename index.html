@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<script src="./lib/jquery.js"></script>
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js" data-build-remove="false"></script>
+	<link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+	
+	<script src="./js/target.js"></script>
+	<script src="./js/ball.js"></script>
+	<script src="./js/game.js"></script>
+	<script src="./js/main.js"></script>
+
+	<title>Sensor Game</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+</head>
+
+
+<body>
+    <div id="mainPage" data-role="page">
+		<div data-role="header" data-position="fixed">
+			<h1>Sensor Game</h1>
+		</div>
+		<div id="background" data-role="content" >
+			<p id="gameover">Game Over!!!</p>
+			<img id="ball" />
+			<img id="target" />
+			
+		</div>
+		<div data-role="footer" data-position="fixed" >
+			<ul>
+				<li id="time"></li>
+				<li id="score"></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

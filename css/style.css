@@ -1,0 +1,49 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+    -webkit-user-select: none;
+}
+
+ul {
+	display: inline; 				/*  세로나열을 가로나열로 변경 */
+	font: bold 20px Dotum; 			/* 폰트 설정 - 20px의 돋움체 굵은 글씨로 표시 */
+}
+
+li{
+	position:relative; 
+	text-align:middle;
+	height:100%; 
+	width:50%;
+	float:left;
+	list-style-type: none;
+}
+
+#background {
+	background-image: url('../images/background.png');
+	height: 390px;
+}
+
+#ball {
+	content: url('../images/ball.png');
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index:1;
+}
+
+ #target {
+	content: url('../images/hole.png');
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#gameover {
+	display:none;
+	text-align:center;
+	font: bold 40px Dotum;
+}
